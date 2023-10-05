@@ -1,0 +1,144 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f7f7f7;
+}
+main {
+    margin: 15px;
+}
+
+section {
+    padding: 20px 20px;
+}
+section h2 {
+    text-align: center;
+}
+
+/* Create a CSS Grid layout for specific sections */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 10px 0px 0px 10px;
+}
+
+/* Basic styles for the header */
+header {
+    color: #f0f0f0;
+    background-color: #0a3856a7;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+/* Style the Hobbies section */
+#hobbies {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Center-align the Hobbies section heading */
+#hobbies h2 {
+    text-align: center;
+}
+/* Style each individual hobby item */
+.hobby {
+    text-align: center;
+}
+
+/* Style the hobby image */
+.hobby img {
+    width: 90%;
+    max-height: 200px;
+}
+
+/* Style the hobby description text */
+.hobby p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* Paper block styles */
+.paper {
+    background-color:rgba(239, 245, 255, 0.833);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Image styles */
+.image {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Blog post styles */
+.blog-post {
+    background-color: #eff1ffd9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Center-align the footer */
+footer {
+    color: #f0f0f0;
+    text-align: center;
+    background-color: #0a3856a7; /* Elegant footer color */
+    padding: 10px;
+}
+.paper h3,p {
+    padding: 5px;
+}
+.paper p:first-of-type {
+    font-weight: 600;
+    color: rgba(0, 53, 187, 0.854)
+}
+.blog-post p:first-of-type {
+    font-weight: 600;
+    color: cornflowerblue;
+}
+#gallery {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Center-align the Gallery section heading */
+#gallery h2 {
+    text-align: center;
+}
+
+/* Style the image */
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
